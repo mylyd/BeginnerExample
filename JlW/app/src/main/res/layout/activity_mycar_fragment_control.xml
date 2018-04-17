@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="小车启停控制："
+        android:textColor="#262626"
+        android:textSize="60sp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车号："
+            android:textSize="40sp"
+            android:textColor="#2b2b2b"
+            android:layout_marginRight="10dp"/>
+        <Spinner
+            android:id="@+id/MyCar_Fragment_control_spinner"
+            android:layout_marginRight="80dp"
+            android:layout_width="150dp"
+            android:textAlignment="center"
+            android:entries="@array/MyCarFragmentNumber"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启停："
+            android:textSize="40sp"
+            android:textColor="#2b2b2b"
+            android:layout_marginRight="20dp"/>
+
+        <Switch
+            android:id="@+id/MyCar_Fragment_control_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginRight="170dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>  

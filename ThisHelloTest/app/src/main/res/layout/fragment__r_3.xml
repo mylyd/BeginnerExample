@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/F3_Road"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:paddingLeft="35dp"
+                android:layout_marginLeft="480dp"
+                android:drawableRight="@drawable/button_xu"
+                android:gravity="center"
+                android:text="道路信息(1路)"
+                android:layout_marginTop="40dp"
+                android:textSize="32dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/F3_ON_OFF"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="480dp"
+                android:drawableRight="@drawable/button_xu"
+                android:gravity="center"
+                android:paddingLeft="35dp"
+                android:text="路灯控制"
+                android:textSize="32dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:text="路灯状态："
+                android:textSize="32dp"
+                android:textColor="#000"
+                android:layout_marginLeft="300dp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/F3_Text"
+                android:layout_width="400dp"
+                android:layout_height="80dp"
+                android:text=""
+                android:textSize="32dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/F3_Recharge_chaxun"
+            android:layout_width="600dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="340dp"
+            android:background="#83c7f6"
+            android:gravity="center"
+            android:text="查   询"
+            android:textSize="34dp" />
+    </LinearLayout>
+
+</LinearLayout>

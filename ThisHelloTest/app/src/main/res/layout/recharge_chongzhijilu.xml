@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/Recharge_BackButton"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/back"
+                android:background="#00555555"
+                android:text="返回"
+                android:layout_centerVertical="true"
+                android:textSize="22sp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:layout_alignLeft="@+id/Text_title"/>
+            <TextView
+                android:id="@+id/Text_title"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="账 单 管 理"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:background="#88555555"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:text="账单记录"
+            android:textColor="#000"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/PX_button"
+            android:layout_width="500dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="180dp"
+            android:background="#ffffff"
+            android:drawableRight="@drawable/button_xu"
+            android:gravity="center"
+            android:text="时  间  降  序"
+            android:textColor="#676565"
+            android:textSize="32dp" />
+
+        <Button
+            android:id="@+id/Chaxun_button"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_cha"
+            android:text="查 询"
+            android:textSize="34dp" />
+
+    </LinearLayout>
+
+    <View
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#676666"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:text="序 号"
+                android:gravity="center"
+                android:textColor="#aa000000"
+                android:background="@drawable/view"
+                android:textSize="36dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:text="车 号"
+                android:gravity="center"
+                android:textColor="#aa000000"
+                android:background="@drawable/view"
+                android:textSize="36dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:text="充 值 金 额 (元)"
+                android:gravity="center"
+                android:textColor="#aa000000"
+                android:background="@drawable/view"
+                android:textSize="36dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:text="操 作 人"
+                android:gravity="center"
+                android:textColor="#aa000000"
+                android:background="@drawable/view"
+                android:textSize="36dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:text="充 值 时 间"
+                android:gravity="center"
+                android:textColor="#aa000000"
+                android:background="@drawable/view"
+                android:textSize="36dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_text_1"/>
+        <include layout="@layout/layout_text_2"/>
+        <include layout="@layout/layout_text_3"/>
+        <include layout="@layout/layout_text_4"/>
+        <TextView
+            android:id="@+id/layout_view"
+            android:text="暂 无 历 史 记 录"
+            android:textSize="62dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

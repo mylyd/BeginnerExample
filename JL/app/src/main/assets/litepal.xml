@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="BookStore"></dbname>
+    <version value="3"></version>
+
+    <list>
+        <!--每次建立一张表在此添加一次
+          同时改变一下value的版本号-->
+    <mapping class="com.example.a13466.jl.db.BookRecycler"/>
+    <mapping class="com.example.a13466.jl.db.BookEnvironmental"/>
+    <mapping class="com.example.a13466.jl.db.BookVariable"/>
+    </list>
+</litepal>

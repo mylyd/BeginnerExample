@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <!--13-->
+
+        <LinearLayout
+            android:id="@+id/list_layout_13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_1" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_3"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        </LinearLayout>
+
+    <!--15-->
+    <LinearLayout
+        android:id="@+id/list_layout_15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_1" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_5"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <!--23-->
+    <LinearLayout
+        android:id="@+id/list_layout_23"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_2" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_5"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--25-->
+    <LinearLayout
+        android:id="@+id/list_layout_25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_2" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_3"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--33-->
+    <LinearLayout
+        android:id="@+id/list_layout_33"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_3" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_3"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--35-->
+    <LinearLayout
+        android:id="@+id/list_layout_35"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_3" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_5"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--43-->
+    <LinearLayout
+        android:id="@+id/list_layout_43"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_4" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_5"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--45-->
+    <LinearLayout
+        android:id="@+id/list_layout_45"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_4" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_3"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--53-->
+    <LinearLayout
+        android:id="@+id/list_layout_53"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_5" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_3"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--55-->
+    <LinearLayout
+        android:id="@+id/list_layout_55"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_5" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_5"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--63-->
+    <LinearLayout
+        android:id="@+id/list_layout_63"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_6" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_63"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--65-->
+    <LinearLayout
+        android:id="@+id/list_layout_65"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_6" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:layout_weight="1"
+            android:entries="@array/ListView_shuju_65"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:entries="@array/ListView_NoOf"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <ListView
+            android:layout_width="0dp"
+            android:paddingLeft="80dp"
+            android:entries="@array/ListView_time"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    
+    <TextView
+        android:id="@+id/stop_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="距一号站台距离"
+        android:textColor="#000"
+        android:padding="20sp"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/stop_bus1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1号公交车null米"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/stop_bus2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2号公交车null米"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="候车环境"
+        android:textColor="#000"
+        android:padding="20dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="道路环境"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/stop_pm25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PM2.5"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/stop_tem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="温度"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/stop_hum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="湿度"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/stop_co2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CO2"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>

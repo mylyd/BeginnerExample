@@ -1,0 +1,100 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ditu">
+
+     <include layout="@layout/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="37dp"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/edit_YHMZC"
+            android:layout_width="500dp"
+            android:layout_height="85dp"
+            android:background="#e8e7e7"
+            android:gravity="center"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="请输入用户名"
+            android:textSize="36dp" />
+
+        <EditText
+            android:id="@+id/edit_MMFirst"
+            android:layout_width="500dp"
+            android:maxLines="1"
+            android:layout_height="85dp"
+            android:background="#e8e7e7"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="请输入密码"
+            android:textSize="36dp" />
+
+        <EditText
+            android:id="@+id/edit_MMSecond"
+            android:layout_width="500dp"
+            android:layout_height="85dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:background="#e8e7e7"
+            android:gravity="center"
+            android:hint="请确认密码"
+            android:maxLines="1"
+            android:textSize="36dp" />
+
+        <EditText
+            android:id="@+id/edit_Tel"
+            android:layout_width="500dp"
+            android:layout_height="85dp"
+            android:maxLines="1"
+            android:maxLength="11"
+            android:background="#e8e7e7"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:gravity="center"
+            android:hint="请输入11位电话号码"
+            android:textSize="36dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeLayout2">
+
+        <Button
+            android:id="@+id/button_quxiao"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="取   消"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:layout_marginLeft="390dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <Button
+            android:id="@+id/zhuce"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="注   册"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:layout_marginRight="390dp"
+            android:layout_marginBottom="100dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

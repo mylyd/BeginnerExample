@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"/>
+    <item android:title="这肯定是你需要的"
+        android:orderInCategory="1">
+    <menu>
+        <item
+            android:title="返回到登录页面"
+            android:orderInCategory="2"
+            android:icon="@drawable/homepage"
+            android:id="@+id/back_ButtonLogin"
+            />
+        <item
+            android:title="收起DrawerLayout (或者点击侧栏区域外有同样的效果)"
+            android:icon="@drawable/back"
+            android:orderInCategory="1"
+            android:id="@+id/back_ButtonFirst"
+            />
+    </menu>
+    </item>
+
+    <item android:id="@+id/RR"
+        android:title="车辆管理"
+        android:orderInCategory="2"
+        android:icon="@drawable/car_history"
+        >
+    </item>
+    <item
+        android:title="环境指标"
+        android:icon="@drawable/historical_data"
+        android:orderInCategory="10"
+        android:id="@+id/nav_Ambient" />
+    <item
+        android:title="充值历史记录"
+        android:orderInCategory="20"
+        android:icon="@drawable/bill"
+        android:id="@+id/nav_bill" />
+    <item
+        android:title="传感器数据历史记录"
+        android:orderInCategory="30"
+        android:icon="@drawable/car_history"
+        android:id="@+id/nav_carHistory" />
+    <item
+        android:title="账户充值"
+        android:orderInCategory="60"
+        android:icon="@drawable/money_max"
+        android:id="@+id/nav_Recharge"/>
+
+    <item
+        android:title="小车速度 / 账户余额阀值"
+        android:orderInCategory="40"
+        android:icon="@drawable/car_max"
+        android:id="@+id/nav_carMax" />
+
+    <item android:title="这是我自己弄的玩的"
+          android:orderInCategory="1224">
+    <menu>
+        <item
+            android:title="账户充值阀值"
+            android:orderInCategory="50"
+            android:icon="@drawable/recharge"
+            android:id="@+id/nav_moneyMax" />
+        <item
+            android:id="@+id/nav_SetupDrawerLayout"
+            android:title="设 置"
+            android:orderInCategory="1225"
+            android:icon="@drawable/setup_setup"/>
+        <item
+            android:id="@+id/nav_AboutDrawerLayout"
+            android:title="关 于"
+            android:orderInCategory="1226"
+            android:icon="@drawable/about"/>
+    </menu>
+    </item>
+</menu>
+

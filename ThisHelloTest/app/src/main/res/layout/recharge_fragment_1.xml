@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fragment_1_chaxun"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/button_yayaya"
+            android:gravity="center"
+            android:text="查 询"
+            android:textSize="28dp" />
+
+        <EditText
+            android:id="@+id/fragment_1_EditText_chaxun"
+            android:layout_width="600dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/button_off"
+            android:editable="false"
+            android:gravity="center"
+            android:hint="提示(阀值：最低20h/km------最高60h/km)"
+            android:textSize="28dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/view"
+            android:gravity="center"
+            android:text="车  号"
+            android:textColor="#000"
+            android:textSize="28dp" />
+
+        <EditText
+            android:id="@+id/fragment_1_chehao"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/button_off"
+            android:gravity="center"
+            android:hint="(至少为6位)"
+            android:inputType="text"
+            android:maxLength="7"
+            android:maxLines="1"
+            android:textSize="28dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/fragment_1_text_max"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="180dp"
+            android:gravity="center"
+            android:background="@drawable/view"
+            android:textSize="28dp"
+            android:textColor="#000"
+            android:text="最大速度"/>
+        <EditText
+            android:id="@+id/fragment_1_max"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/button_off"
+            android:gravity="center"
+            android:maxLength="2"
+            android:inputType="number"
+            android:maxLines="1"
+            android:hint="(至少2位)h/km"
+            android:layout_gravity="center"
+            android:textSize="28dp"/>
+        <TextView
+            android:id="@+id/fragment_1_text_min"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"
+            android:gravity="center"
+            android:background="@drawable/view"
+            android:textSize="28dp"
+            android:textColor="#000"
+            android:text="最小速度"/>
+        <EditText
+            android:id="@+id/fragment_1_min"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:hint="(至少2位)h/km"
+            android:background="@drawable/button_off"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:maxLength="2"
+            android:layout_gravity="center"
+            android:textSize="28dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/fragment_1_Setup"
+        android:layout_width="500dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:background="@drawable/button_yayaya"
+        android:text="设 置 速 度 阀 值"
+        android:textSize="28sp"
+        android:layout_height="70dp" />
+
+</LinearLayout>

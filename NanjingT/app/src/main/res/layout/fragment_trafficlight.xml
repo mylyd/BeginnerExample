@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="红绿灯信息管理"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textColor="#262626"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排序:"
+            android:layout_centerVertical="true"
+            android:textSize="44sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="100dp"
+            android:textColor="#262626" />
+        <Spinner
+            android:id="@+id/Tra_Sp_Sorting"
+            android:layout_width="600dp"
+            android:entries="@array/Sorting"
+            android:layout_marginLeft="280dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/Tra_btn_query"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:textSize="26sp"
+            android:layout_marginRight="100dp"
+            android:layout_alignParentRight="true"
+            android:textStyle="italic"
+            android:text="查 询"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="路 口"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:background="@drawable/textview_border_style"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="红灯时长(s)"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:background="@drawable/textview_border_style"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="黄灯时长(s)"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:background="@drawable/textview_border_style"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="绿灯时长(s)"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:background="@drawable/textview_border_style"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Tra_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#88555555">
+            <Button
+                android:id="@+id/fragmentRecharge_back"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/back"
+                android:background="#00555555"
+                android:text="返回"
+                android:layout_centerVertical="true"
+                android:textSize="22sp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:layout_alignLeft="@+id/text_discount"/>
+            <TextView
+                android:id="@+id/text_discount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:text="设置账户阈值与小车速度阈值"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/fragment_1_carSudu"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="小  车  账  户"
+        android:textSize="42dp"
+        android:textColor="@color/CarON"
+        android:gravity="center" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:background="#55555555"/>
+        <TextView
+            android:id="@+id/fragment_1_carZhanghu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="小  车  速  度"
+            android:textSize="42dp"
+            android:textColor="@color/CarOFF"
+            android:gravity="center" />
+    </LinearLayout>
+        <FrameLayout
+            android:id="@+id/fragment_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#555555"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="30dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/fragmentRecharge_fragment_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_on"
+            android:gravity="center"
+            android:text="充值额度阀值"
+            android:textColor="@color/ButtonON"
+            android:textSize="34sp" />
+
+        <Button
+                android:id="@+id/fragmentRecharge_fragment_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:textColor="@color/ButtonOFF"
+                android:background="@drawable/button_off"
+                android:gravity="center"
+                android:textSize="34sp"
+                android:layout_height="match_parent"
+                android:text="小车速度阀值"/>
+
+    </LinearLayout>
+
+</LinearLayout>

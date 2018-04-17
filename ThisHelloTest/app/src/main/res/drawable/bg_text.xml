@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="true">
+
+    <!-- android：shape=["rectangle" | "oval" | "line" | "ring"]
+      //共有4种类型，矩形（默认）/椭圆形/直线形/环形 -->
+
+    <!--  android:useLevel=""
+     //使用LevelListDrawable时就要设置为true。设为false时才有渐变效果 -->
+
+    <solid android:color="#c3bdbd"/>
+    <!--图形的backgroundColor-->
+    <size android:height="1sp" android:width="1sp"/>
+    <!--height值与width值相等即为圆-->
+</shape>

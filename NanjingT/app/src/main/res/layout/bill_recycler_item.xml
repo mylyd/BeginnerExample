@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+        <TextView
+            android:id="@+id/bill_text_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:textStyle="italic"
+            android:background="@drawable/textview_border_style"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/bill_text_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:textStyle="italic"
+            android:background="@drawable/textview_border_style"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/bill_text_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:textStyle="italic"
+            android:background="@drawable/textview_border_style"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/bill_text_4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:textStyle="italic"
+            android:background="@drawable/textview_border_style"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/bill_text_5"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:textStyle="italic"
+            android:background="@drawable/textview_border_style"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

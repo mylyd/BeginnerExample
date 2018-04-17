@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="排序方式"
+            android:textSize="36dp"
+            android:layout_marginLeft="260dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <Spinner
+            android:id="@+id/Spinner_R"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="300dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:entries="@array/time"
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="车号"
+            android:textSize="32dp"
+            android:background="#e6e6e6"
+            android:layout_marginLeft="120dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="进入时间"
+            android:textSize="32dp"
+            android:background="#e6e6e6"
+            android:layout_marginLeft="120dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="离开时间"
+            android:textSize="32dp"
+            android:background="#e6e6e6"
+            android:layout_marginLeft="120dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Money"
+            android:textSize="32dp"
+            android:background="#e6e6e6"
+            android:layout_marginLeft="80dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/R_L1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/L1V1"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="120dp"
+                android:background="#e6e6e6"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="32dp" />
+
+            <TextView
+                android:id="@+id/L1V2"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="2018.2.9 1:38:00"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="95dp"/>
+            <TextView
+                android:id="@+id/L1V3"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="2018.2.9 13:24:27"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:id="@+id/L1V4"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="55dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/R_L2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/L2V1"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="120dp"/>
+            <TextView
+                android:id="@+id/L2V2"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="2018.2.9 1:50:25"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="95dp"/>
+            <TextView
+                android:id="@+id/L2V3"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="2018.2.9 14:00:21"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:id="@+id/L2V4"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="30"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="55dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/R_L3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/L3V1"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="120dp"
+                android:background="#e6e6e6"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="32dp" />
+
+            <TextView
+                android:id="@+id/L3V2"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="2018.2.9 1:52:13"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="95dp"/>
+            <TextView
+                android:id="@+id/L3V3"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="2018.2.9 15:22:17"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="70dp"/>
+            <TextView
+                android:id="@+id/L3V4"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="40"
+                android:textSize="32dp"
+                android:background="#e6e6e6"
+                android:layout_marginLeft="55dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/R_L4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/L4V1"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="120dp"
+                android:background="#e6e6e6"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="32dp" />
+
+            <TextView
+                android:id="@+id/L4V2"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="95dp"
+                android:background="#e6e6e6"
+                android:gravity="center"
+                android:text="2018.2.9 1:47:22"
+                android:textSize="32dp" />
+
+            <TextView
+                android:id="@+id/L4V3"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:background="#e6e6e6"
+                android:gravity="center"
+                android:text="2018.2.10 17:01:25"
+                android:textSize="32dp" />
+
+            <TextView
+                android:id="@+id/L4V4"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="55dp"
+                android:background="#e6e6e6"
+                android:gravity="center"
+                android:text="99"
+                android:textSize="32dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/F2_Recharge_chaxun"
+            android:layout_width="600dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="340dp"
+            android:background="#83c7f6"
+            android:gravity="center"
+            android:text="查   询"
+            android:textSize="34dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

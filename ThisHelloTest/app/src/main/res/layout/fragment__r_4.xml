@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="200dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="60dp"
+        android:text="小车开停控制"
+        android:textColor="#000"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="300dp">
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:text="车号："/>
+    <Spinner
+        android:id="@+id/F4_Spinner_1"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="100dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="center"
+        android:entries="@array/num"
+        android:spinnerMode="dropdown"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="300dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="启停："/>
+        <Button
+            android:id="@+id/F4_button_1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/noo"/>
+        
+    </LinearLayout>
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="60dp"
+        android:text="小车速度查询"
+        android:textColor="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="300dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="车号："/>
+        <Spinner
+            android:id="@+id/F4_Spinner_2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="100dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:entries="@array/num"
+            android:spinnerMode="dropdown"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="300dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="速度："/>
+        <TextView
+            android:id="@+id/F4_text"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="36sp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

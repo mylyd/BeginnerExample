@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="88dp"
+        android:text=""
+        android:onClick="setViewPager"/>
+
+    <TextView
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Android应用程序的用户界面是一切，用户可以看到并与之交互。UI 是用户能看见并可交互的组件"
+        android:textSize="36sp"
+        android:textColor="#f50000"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true" />
+
+</LinearLayout>  

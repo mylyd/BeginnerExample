@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"/>
+    <item android:title="这肯定是你需要的"
+        android:orderInCategory="1">
+        <menu>
+            <item
+                android:title="返回上一级"
+                android:orderInCategory="1"
+                android:icon="@drawable/homepage"
+                android:id="@+id/back_ButtonLogin_R"
+                />
+            <item
+                android:title="收起DrawerLayout (或者点击侧栏区域外有同样的效果)"
+                android:icon="@drawable/back"
+                android:orderInCategory="2"
+                android:id="@+id/back_ButtonFirst_R"
+                />
+        </menu>
+    </item>
+    <item
+        android:title="城市道路状态查询"
+        android:icon="@drawable/historical_data"
+        android:orderInCategory="10"
+        android:id="@+id/R_1" />
+    <item
+        android:title="停车记录查询"
+        android:orderInCategory="20"
+        android:icon="@drawable/bill"
+        android:id="@+id/R_2" />
+    <item
+        android:title="对路灯的管理控制"
+        android:orderInCategory="30"
+        android:icon="@drawable/car_history"
+        android:id="@+id/R_3" />
+    <item
+        android:title="个人对车辆的控制与管理"
+        android:orderInCategory="40"
+        android:icon="@drawable/money_max"
+        android:id="@+id/R_4"/>
+
+    <item
+        android:title="根据光照强度打开关闭路灯"
+        android:orderInCategory="50"
+        android:icon="@drawable/car_max"
+        android:id="@+id/R_5" />
+</menu>

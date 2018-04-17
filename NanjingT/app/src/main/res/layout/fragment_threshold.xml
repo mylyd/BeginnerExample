@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自动报警："
+            android:textSize="42sp"
+            android:textColor="#292929"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"/>
+        <TextView
+            android:id="@+id/Thr_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开"
+            android:textSize="40sp"
+            android:textColor="#292929"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"/>
+        <Switch
+            android:id="@+id/Thr_switch"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="30dp"
+        android:background="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温  度:"
+            android:textColor="#1c1c1c"
+            android:textSize="36dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/editText_Tem"
+            android:layout_width="500dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:inputType="number"
+            android:background="#dedede"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="湿  度:"
+            android:textColor="#1c1c1c"
+            android:textSize="36dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/editText_Hum"
+            android:layout_width="500dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:inputType="number"
+            android:background="#dedede"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="光  照:"
+            android:textColor="#1c1c1c"
+            android:textSize="36dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/editText_Light"
+            android:layout_width="500dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:inputType="number"
+            android:background="#dedede"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CO2   :"
+            android:textColor="#1c1c1c"
+            android:textSize="36dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/editText_CO2"
+            android:layout_width="500dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:inputType="number"
+            android:background="#dedede"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PM2.5:"
+            android:textColor="#1c1c1c"
+            android:textSize="36dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/editText_PM25"
+            android:layout_width="500dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:textSize="28sp"
+            android:inputType="number"
+            android:background="#dedede"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="道路状况:"
+            android:textColor="#1c1c1c"
+            android:textSize="36dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:id="@+id/editText_Road"
+            android:layout_width="500dp"
+            android:layout_height="60dp"
+            android:maxLines="1"
+            android:layout_marginRight="40dp"
+            android:textSize="28sp"
+            android:inputType="number"
+            android:background="#dedede"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/Thr_button"
+        android:layout_width="800dp"
+        android:layout_height="60dp"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="保 存"/>
+
+
+</LinearLayout>

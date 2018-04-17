@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="italic"
+        android:textColor="#313131"
+        android:text="账户余额：" />
+
+    <TextView
+        android:id="@+id/my_tv_balance"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="italic"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#313131"
+        android:textSize="42sp"
+        android:textStyle="italic"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:text="车        号：" />
+
+    <Spinner
+        android:id="@+id/my_spinner_carNumber"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="180dp"
+        android:entries="@array/CarNumber"/>
+
+    <Button
+        android:id="@+id/my_btn_Query"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/btn_style_fillet"
+        android:text="查 询"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/my_btn_Recharge"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="320dp"
+        android:background="@drawable/btn_style_fillet"
+        android:text="充 值"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="42sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="260dp"
+        android:textStyle="italic"
+        android:textColor="#313131"
+        android:text="充值金额：" />
+    <EditText
+        android:id="@+id/my_Et_money"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:textSize="32sp"
+        android:maxLines="1"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="260dp"
+        android:textStyle="italic"
+        android:hint="金额" />
+    </RelativeLayout>
+</RelativeLayout>

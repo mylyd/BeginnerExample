@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawer_bg"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/drawer_tv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#c2f3fe"
+            android:textStyle="italic"
+            android:text="May everyone be wonderful"
+            android:background="@drawable/bg"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#484848"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/drawer_btn_MyAccount"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#f91134"
+            android:textStyle="italic"
+            android:text="我 的 账 户"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#484848"/>
+
+        <Button
+            android:id="@+id/drawer_btn_TrafficLight"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#f91134"
+            android:textStyle="italic"
+            android:text="红 绿 灯 管 理"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#484848"/>
+
+        <Button
+            android:id="@+id/drawer_btn_Bill"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:gravity="center"
+            android:textColor="#f91134"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:text="账 单 管 理"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#484848"/>
+
+        <Button
+            android:id="@+id/drawer_btn_Violation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:textColor="#f91134"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:text="违 章 查 看"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#484848"/>
+
+        <Button
+            android:id="@+id/drawer_btn_Environmental"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:gravity="center"
+            android:textColor="#f91134"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:text="环 境 指 标"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#484848"/>
+
+        <Button
+            android:id="@+id/drawer_btn_Threshold"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:gravity="center"
+            android:textColor="#f91134"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:text="阈 值 设 置"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#484848"/>
+
+        <Button
+            android:id="@+id/drawer_btn_Travel"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:textColor="#f91134"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:text="出 行 管 理"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#484848"/>
+
+        <Button
+            android:id="@+id/drawer_btn_Creativity"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#f91134"
+            android:textStyle="italic"
+            android:text="创   意" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/drawer_btn_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:drawableLeft="@drawable/drawer_icon_setting"
+            android:text="设置"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="#d9d8d8"
+            android:gravity="center"
+            android:onClick="animationText"
+            android:padding="10dp"
+            android:text="动画"
+            android:textSize="36sp" />
+        <Button
+            android:id="@+id/RecyclerView_Btn_query"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#d9d8d8"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="查询"
+            android:textSize="36sp"/>
+        <Button
+            android:id="@+id/RecyclerView_Btn_1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#d9d8d8"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:text="打印"
+            android:textSize="36sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#5e5e5e"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#70b5b9"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="路 口"
+            android:textSize="36dp"
+            android:background="@drawable/textview_border"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="红灯时长/s"
+            android:textSize="36dp"
+            android:background="@drawable/textview_border"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="绿灯时长/s"
+            android:textSize="36dp"
+            android:background="@drawable/textview_border"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="黄灯时长/s"
+            android:textSize="36dp"
+            android:background="@drawable/textview_border"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>  

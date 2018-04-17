@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/Vio_btn_video"
+            android:layout_width="250dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/black_bg_border"
+            android:layout_height="80dp"
+            android:textSize="42dp"
+            android:gravity="center"
+            android:text="违章视频"/>
+        <Button
+            android:id="@+id/Vio_btn_photo"
+            android:layout_width="250dp"
+            android:background="@drawable/white_bg_border"
+            android:layout_height="80dp"
+            android:textSize="42dp"
+            android:gravity="center"
+            android:text="违章图片"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#505050"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"/>
+    <LinearLayout
+        android:id="@+id/Vio_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:orientation="vertical"/>
+
+
+</LinearLayout>

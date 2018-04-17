@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thishellotest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".GuideActivity">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".FirstMainActivity"></activity>
+        <activity android:name=".AmbientActivty" />
+        <activity android:name=".ViewPagerAmbientActivity" />
+        <activity android:name=".RechargeActivity" />
+        <activity android:name=".SensorActivity" />
+        <activity android:name=".RechargeFragmentActivity" />
+        <activity android:name=".AccountRecharge" />
+        <activity android:name=".T10_14.Fragment_R" />
+        <activity android:name=".T15_20.T15" />
+        <activity android:name=".T15_20.T16" />
+        <activity android:name=".T15_20.T17" />
+        <activity android:name=".T15_20.T18" />
+        <activity android:name=".T15_20.T19" />
+        <activity android:name=".T15_20.T20" />
+
+        <service
+            android:name="Service.MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

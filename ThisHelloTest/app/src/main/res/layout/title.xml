@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#055ba8"
+    android:gravity="center">
+    <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+         <Button
+             android:id="@+id/bto_Internet"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:background="#00ffffff"
+             android:textColor="#ffffff"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="25dp"
+             android:text=" 网络设置"
+             android:drawableLeft="@drawable/setup"
+             android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+         <TextView
+             android:id="@+id/title_text"
+             android:gravity="center"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:textColor="#ffffff"
+             android:paddingTop="12dp"
+             android:paddingBottom="10dp"
+             android:textSize="60dp"
+             android:text=""/>
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

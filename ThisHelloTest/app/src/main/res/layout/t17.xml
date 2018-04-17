@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#aaa9a9">
+            <Button
+                android:id="@+id/T17_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/back"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/text_discount"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="侧栏"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="75dp"
+                android:textSize="24sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:text="T17"/>
+        </RelativeLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="200dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="当前空闲车位查询"
+            android:textSize="56dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/T17_chaxun"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="查 询"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="150dp"
+            android:textSize="40dp"/>
+        <TextView
+            android:id="@+id/T17_caron"
+            android:layout_width="220dp"
+            android:layout_margin="50dp"
+            android:background="@drawable/bian"
+            android:layout_height="200dp" />
+        <TextView
+            android:id="@+id/T17_caroff"
+            android:layout_width="220dp"
+            android:layout_margin="50dp"
+            android:background="@drawable/bian"
+            android:layout_height="200dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1号车位"
+            android:textSize="36dp"
+            android:layout_marginLeft="650dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2号车位"
+            android:textSize="36dp"
+            android:layout_marginLeft="200dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

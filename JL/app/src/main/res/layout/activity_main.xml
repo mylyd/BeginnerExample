@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#9f9f9f"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#bababa"
+                android:gravity="center"
+                android:onClick="first"
+                android:padding="10dp"
+                android:text="返 回"
+                android:textSize="36sp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#d9d8d8"
+                android:gravity="center"
+                android:onClick="drawerLayout"
+                android:padding="10dp"
+                android:text="侧栏"
+                android:textSize="36sp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#d9d8d8"
+                android:gravity="center"
+                android:onClick="animationText"
+                android:padding="10dp"
+                android:text="动画first"
+                android:textSize="36sp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#d9d8d8"
+                android:gravity="center"
+                android:onClick="setPagerTo"
+                android:padding="10dp"
+                android:text="动画Pager"
+                android:textSize="36sp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#d9d8d8"
+                android:gravity="center"
+                android:onClick="animationRecycler"
+                android:padding="10dp"
+                android:text="Recycler"
+                android:textSize="36sp" />
+            <TextView
+                android:id="@+id/timetext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="#00d9d8d8"
+                android:gravity="center"
+                android:onClick="animationRecycler"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="36sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:text="4564545"
+        android:background="#fff"
+        android:layout_gravity="right"
+        android:textSize="28sp"/>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout_R"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <!--title-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#aaa9a9">
+                <Button
+                    android:id="@+id/R_DrawerLayout"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/drawer_cc"
+                    android:layout_centerVertical="true"
+                    android:layout_alignLeft="@+id/text_discount"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="侧栏"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="75dp"
+                    android:textSize="24sp"/>
+                <TextView
+                    android:id="@+id/RR_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="50sp"
+                    android:text="道   路   状   态"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <!--Fragment-->
+        <FrameLayout
+            android:id="@+id/R_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- 520dp是侧栏的宽度 可以自定义  -->
+    <android.support.design.widget.NavigationView
+        android:layout_width="520dp"
+        android:layout_height="match_parent"
+        android:id="@+id/R_view"
+        android:layout_gravity="start"
+        app:itemTextColor="#f72323"
+        app:itemBackground="@color/itemMenu"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/r_menu"
+        />
+</android.support.v4.widget.DrawerLayout>

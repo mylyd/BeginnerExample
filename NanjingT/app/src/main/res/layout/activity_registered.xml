@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ditu">
+    <include layout="@layout/actionbar"/>
+
+    <EditText
+        android:id="@+id/Et_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="196dp"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:hint="用户名" />
+
+    <EditText
+        android:id="@+id/Et_password"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:inputType="textPassword"
+        android:maxLength="18"
+        android:maxLines="1"
+        android:hint="密码"/>
+
+    <EditText
+        android:id="@+id/Et_Second_password"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="363dp"
+        android:inputType="textPassword"
+        android:maxLength="18"
+        android:maxLines="1"
+        android:hint="请再次输入密码"/>
+
+    <Button
+        android:id="@+id/Btn_registered"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="332dp"
+        android:text="注 册"
+        android:textSize="24sp" />
+
+</RelativeLayout>

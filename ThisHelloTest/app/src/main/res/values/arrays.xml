@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="String_left">
+        <item>空气温度</item>
+        <item>空气湿度</item>
+        <item>光照</item>
+        <item>二氧化碳</item>
+        <item>PM2.5</item>
+        <item>道路状况</item>
+    </string-array>
+
+    <string-array name="String_right">
+        <item>3/min</item>
+        <item>5/min</item>
+    </string-array>
+
+    <string-array name="ListView_1">
+        <item>空气温度</item>
+        <item>空气温度</item>
+        <item>空气温度</item>
+        <item>空气温度</item>
+        <item>空气温度</item>
+        <item>空气温度</item>
+        <item>空气温度</item>
+        <item>空气温度</item>
+    </string-array>
+    <string-array name="ListView_2">
+        <item>空气湿度</item>
+        <item>空气湿度</item>
+        <item>空气湿度</item>
+        <item>空气湿度</item>
+        <item>空气湿度</item>
+        <item>空气湿度</item>
+        <item>空气湿度</item>
+        <item>空气湿度</item>
+    </string-array>
+    <string-array name="ListView_3">
+        <item>光照</item>
+        <item>光照</item>
+        <item>光照</item>
+        <item>光照</item>
+        <item>光照</item>
+        <item>光照</item>
+        <item>光照</item>
+        <item>光照</item>
+    </string-array>
+    <string-array name="ListView_4">
+        <item>二氧化碳</item>
+        <item>二氧化碳</item>
+        <item>二氧化碳</item>
+        <item>二氧化碳</item>
+        <item>二氧化碳</item>
+        <item>二氧化碳</item>
+        <item>二氧化碳</item>
+        <item>二氧化碳</item>
+    </string-array>
+    <string-array name="ListView_5">
+        <item>PM 2.5</item>
+        <item>PM 2.5</item>
+        <item>PM 2.5</item>
+        <item>PM 2.5</item>
+        <item>PM 2.5</item>
+        <item>PM 2.5</item>
+        <item>PM 2.5</item>
+        <item>PM 2.5</item>
+    </string-array>
+    <string-array name="ListView_6">
+        <item>道路状况</item>
+        <item>道路状况</item>
+        <item>道路状况</item>
+        <item>道路状况</item>
+        <item>道路状况</item>
+        <item>道路状况</item>
+        <item>道路状况</item>
+        <item>道路状况</item>
+    </string-array>
+
+    <string-array name="ListView_shuju_3">
+        <item>200</item>
+        <item>200</item>
+        <item>190</item>
+        <item>190</item>
+        <item>190</item>
+        <item>190</item>
+        <item>190</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="ListView_shuju_5">
+        <item>220</item>
+        <item>220</item>
+        <item>180</item>
+        <item>180</item>
+        <item>180</item>
+        <item>180</item>
+        <item>180</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="ListView_shuju_63">
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ListView_shuju_65">
+        <item>3</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="ListView_NoOf">
+        <item>正常</item>
+        <item>正常</item>
+        <item>正常</item>
+        <item>正常</item>
+        <item>正常</item>
+        <item>正常</item>
+        <item>正常</item>
+        <item>不正常</item>
+    </string-array>
+
+    <string-array name="ListView_time">
+        <item>2018.2.2 23:01:00</item>
+        <item>2018.2.2 23:01:10</item>
+        <item>2018.2.2 23:02:10</item>
+        <item>2018.2.2 23:02:20</item>
+        <item>2018.2.2 23:03:30</item>
+        <item>2018.2.2 23:03:10</item>
+        <item>2018.2.2 23:04:40</item>
+        <item>2018.2.2 23:04:10</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Money升序</item>
+        <item>Money降序</item>
+        <item>时间(进入)升序</item>
+        <item>时间(进入)降序</item>
+        <item>车号升序</item>
+        <item>车号降序</item>
+    </string-array>
+
+    <string-array name="num">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

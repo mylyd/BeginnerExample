@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ditu"
+    android:orientation="vertical">
+    <!--导入导航栏-->
+        <include layout="@layout/title"/>
+    <!--导入登录页面-->
+        <include layout="@layout/login_page"/>
+
+</LinearLayout>
